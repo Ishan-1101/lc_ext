@@ -1,0 +1,55 @@
+.wrapper {
+    display: flex;
+  }
+  .card-container {
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px -5px;
+    transition: 0.2s;
+    animation: ease-in;
+  }
+  .card-container:hover {
+    transform: scale(1.015);
+    box-shadow: 0px 0px 10px 0px;
+  }
+  .image-container img {
+    height: 22vh;
+    overflow: hidden;
+  }
+  .card-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+  }
+  h3,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+  .btn button {
+    padding: 0.5rem;
+    border: none;
+    background-color: whitesmoke;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
+  .btn button:hover {
+    background-color: rgb(230, 230, 230);
+    transform: scale(1.1);
+  }
+  .btn button a {
+    text-transform: uppercase;
+    color: rgb(237, 165, 89);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  

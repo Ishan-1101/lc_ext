@@ -1,0 +1,10 @@
+{
+    "name":"Leetcode Contests",
+    "description":"Never miss an upcoming leetcode contest with this extention",
+    "version":"1.0.1",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"icon.png"
+    }
+}
